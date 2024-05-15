@@ -1,5 +1,5 @@
 # Use official Node.js v18 image as base
-FROM node:17
+FROM node:16
 
 # Install ffmpeg
 RUN apt-get update && apt-get install -y ffmpeg
